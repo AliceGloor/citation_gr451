@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, Flexbox!</title>
+    <style>
+        body {
+            font-family: sans-sherif;
+        }
+
+        section {
+            border: 2px solid blueviolet
+        }
+
+        div {
+            border: 2px solid yellowgreen;
+        }
+
+        /*section, div { margin: 1rem; padding: 1rem;}*/
+
+        section {
+            display: flex;
+            gap: 1rem;
+        }
+
+        div {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>"Le temps perdu ne se rattrape jamais."</div>
+        <div>"Tout viens à point à qui sait attendre."</div>
+    </section>
+</body>
+
+</html>
